@@ -52,17 +52,17 @@ public class CatRunRanRun extends JPanel implements ActionListener, KeyListener 
         setBackground(Color.white);
 
         // โหลดภาพ
-        catImage = new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/pic/cat.png").getImage();
+        catImage = new ImageIcon("pic/cat.png").getImage();
 
-        bgImages[0] = new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/background/city.jpg").getImage();
-        bgImages[1] = new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/background/night.jpg").getImage();
-        bgImages[2] = new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/background/forest.jpg").getImage();
-        bgImages[3] = new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/background/sea2.jpg").getImage();
+        bgImages[0] = new ImageIcon("background/city.jpg").getImage();
+        bgImages[1] = new ImageIcon("background/night.jpg").getImage();
+        bgImages[2] = new ImageIcon("background/forest.jpg").getImage();
+        bgImages[3] = new ImageIcon("background/sea2.jpg").getImage();
 
-        obsImages[0] = new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/pic/cucumber.png").getImage();
-        obsImages[1] = new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/pic/car.png").getImage();
-        obsImages[2] = new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/pic/rock.png").getImage();
-        obsImages[3] = new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/pic/shark.png").getImage();
+        obsImages[0] = new ImageIcon("pic/cucumber.png").getImage();
+        obsImages[1] = new ImageIcon("pic/car.png").getImage();
+        obsImages[2] = new ImageIcon("pic/rock.png").getImage();
+        obsImages[3] = new ImageIcon("pic/shark.png").getImage();
 
         timer = new Timer(20, this);
         timer.start();
@@ -285,7 +285,7 @@ class StartMenu extends JFrame implements ActionListener {
         setLayout(null);
 
         // Background
-        JLabel bg = new JLabel(new ImageIcon("C:/Users/66982/Desktop/CatCityGame_New/background/city.jpg"));
+        JLabel bg = new JLabel(new ImageIcon("background/city.jpg"));
         bg.setBounds(0, 0, 700, 500);
         add(bg);
 

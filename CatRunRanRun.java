@@ -165,7 +165,6 @@ public class CatRunRanRun extends JPanel implements ActionListener, KeyListener 
                     baseSpeed *= 1.2; // +20% per loop
                 }
                 scrollSpeed = baseSpeed + currentStage;
-                obstacles.clear();
                 stageStartTime = System.currentTimeMillis();
             }
         }
@@ -219,8 +218,6 @@ public class CatRunRanRun extends JPanel implements ActionListener, KeyListener 
     public static void main(String[] args) {
         new StartMenu();
     }
-
-    // ======================= OBSTACLE INNER CLASS =======================
     // ======================= OBSTACLE CLASS =======================
     static class Obstacle {
         int x, y, width, height;
